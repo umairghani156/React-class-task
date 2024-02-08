@@ -15,6 +15,7 @@ export default function Footer({setLevel, level}){
             setLevel(3)
         }
     }
+    /////
     return(
         <div style={{display:"flex", justifyContent:"space-around"}}>
             <button onClick={foo2} style={{padding:"10px", backgroundColor: "blue",color:"white", border: "none", borderRadius:"10px"}}>Previous</button>
