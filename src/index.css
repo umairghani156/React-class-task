@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn{
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.btnPar{
+  display: flex;
+  justify-content: space-between;
+}
+.Btn-parent{
+  display:flex;
+  justify-content:space-around;
+   width:400px;
+   background-color:grey;
+   height: 300px;
+   flex-direction: column;
+   margin: 70px auto;
+}
